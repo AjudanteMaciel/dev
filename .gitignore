@@ -6,3 +6,9 @@ react/*
 
 .python-version
 .vscode
+
+!android/.gitkeep
+!java/.gitkeep
+!node/.gitkeep
+!python/.gitkeep
+!react/.gitkeep
