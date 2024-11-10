@@ -1,0 +1,34 @@
+workspace setup
+
+install fonts
+	FiraCode Nerd Font Mono
+
+windows terminal
+powershell 8
+oh my posh
+neovim
+git
+github desktop
+
+vscode
+
+overwrite $PROFILE on powershell 8
+
+----------------------------------------------------------------| JAVA
+install java
+	jvms
+
+----------------------------------------------------------------| ANDROID
+adroid studio
+setup sdk and emulator variable
+
+----------------------------------------------------------------| PYTHON
+install python
+	pyenv
+	venvs
+
+----------------------------------------------------------------| NODE / JS / EXPO / TS /
+install nodejs
+	nvm
+
+install expo

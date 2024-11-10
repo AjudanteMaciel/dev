@@ -1,0 +1,48 @@
+1. feat: (Feature)
+Usado para adicionar uma nova funcionalidade ao código.
+
+Exemplo: feat: adiciona funcionalidade de login
+2. fix: (Bug Fix)
+Usado para corrigir um bug no código.
+
+Exemplo: fix: corrige erro de validação no formulário
+3. docs: (Documentation)
+Usado para mudanças na documentação (comentários no código, README, etc.).
+
+Exemplo: docs: atualiza documentação do README
+4. style: (Styling)
+Usado para mudanças de estilo no código, como formatação, espaços em branco, ponto e vírgula, sem mudar a funcionalidade do código.
+
+Exemplo: style: corrige espaçamento de indentação
+5. refactor: (Refatoração)
+Usado para refatorar o código sem mudar o comportamento (geralmente para melhorar a legibilidade ou a estrutura).
+
+Exemplo: refactor: refatora função para simplificar lógica
+6. perf: (Performance)
+Usado quando o commit melhora a performance do código.
+
+Exemplo: perf: otimiza algoritmo de ordenação
+7. test: (Testes)
+Usado para adicionar ou modificar testes.
+
+Exemplo: test: adiciona testes para o componente de login
+8. build: (Build System)
+Usado para mudanças no sistema de build ou dependências.
+
+Exemplo: build: atualiza dependências do projeto
+9. ci: (Continuous Integration)
+Usado para mudanças nos arquivos de configuração de integração contínua, como pipelines e scripts.
+
+Exemplo: ci: configura pipeline para testes automatizados
+10. chore: (Chore)
+Usado para mudanças em arquivos de manutenção, como a configuração do ambiente, sem adicionar uma funcionalidade nova ou corrigir um erro.
+
+Exemplo: chore: atualiza scripts de deploy
+11. revert: (Reversão)
+Usado para reverter mudanças feitas por um commit anterior.
+
+Exemplo: revert: reverte commit de refatoração
+12. types: (Types)
+Usado para adição ou correção de tipos, como na tipagem do TypeScript, ou correções relacionadas à inferência de tipos.
+
+Exemplo: types: corrige tipo de retorno da função calcularImpostos

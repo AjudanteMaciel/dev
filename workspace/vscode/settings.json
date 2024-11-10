@@ -1,0 +1,62 @@
+{
+
+    "workbench.iconTheme": "icons",
+    "workbench.colorTheme": "Tokyo Night",
+    "window.menuBarVisibility": "toggle",
+
+    // fonts -------------------------------------------------------  ==>
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": "'calt', 'cv01', 'cv06', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero'",
+    
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 12,
+    "git.openRepositoryInParentFolders": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    // extensions -------------------------------------------------------  ==>
+
+    "maptz.regionfolder": {
+        "[plaintext]": {
+        "foldEnd": "/* #endregion */",
+        "foldEndRegex": "/\\*[\\s]*#endregion",
+        "foldStart": "/* #region [NAME] */",
+        "foldStartRegex": "^[\\s]*/\\*[\\s]*#region[\\s]*(.*)[\\s]*\\*/[\\s]*$",
+        "defaultFoldStartRegex": "^[\\s]*/\\*[\\s]*#region[\\s]*default\\s(.*)[\\s]*\\*/[\\s]*$",
+        "foldDefinitions": [
+                {
+                "foldEndRegex": "\\*+/[\\s]*$",
+                "foldStartRegex": "^[\\s]*/\\*\\*+" ,
+                "isFoldedByDefault": true
+                }
+            ]
+        }
+    },
+
+    "styled-colors.exclude": [
+        "**/.git",
+        "**/.svn",
+        "**/.hg",
+        "**/CVS",
+        "**/.DS_Store",
+        "**/.git",
+        "**/node_modules",
+        "**/bower_components",
+        "**/tmp",
+        "**/dist",
+        "**/tests"
+    ],
+    "styled-colors.styled_colors": [
+        "BROWSERS_COLORS"
+    ],
+
+    "BracketHighlighter.blurOutOfScopeText": true,
+    "BracketHighlighter.customSymbols": [],
+    "BracketHighlighter.differentSymbolHighlightingUsed": true,
+    "python.defaultInterpreterPath": "d:\\dev\\python\\arte_do_reino\\Scripts\\python.exe",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "powershell.promptToUpdatePowerShell": false,
+    "files.autoSave": "afterDelay"
+
+}
