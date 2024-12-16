@@ -1,6 +1,7 @@
 TODO: automatic sript to install
 
 FiraCode Nerd Font Mono
+Fantasque Sans Mono
 
 windows terminal
 powershell
