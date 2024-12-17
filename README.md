@@ -1,4 +1,5 @@
-TODO: automatic sript to install
+TODO: Automatic install sript
+TODO: Script to change icons automatically
 
 FiraCode Nerd Font Mono
 Fantasque Sans Mono
