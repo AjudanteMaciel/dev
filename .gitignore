@@ -1,14 +1,20 @@
 android/*
+!android/.gitkeep
+
 java/*
+java/JVMS/*
+!java/.gitkeep
+!java/JVMS
+!java/JVMS/.gitkeep
+
 node/*
+!node/.gitkeep
+
 python/*
+!python/.gitkeep
+
 react/*
+!react/.gitkeep
 
 .python-version
 .vscode
-
-!android/.gitkeep
-!java/.gitkeep
-!node/.gitkeep
-!python/.gitkeep
-!react/.gitkeep
