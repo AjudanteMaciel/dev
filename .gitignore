@@ -16,5 +16,7 @@ python/*
 react/*
 !react/.gitkeep
 
+workspace/desktop.ini
+
 .python-version
 .vscode
