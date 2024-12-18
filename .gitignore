@@ -16,6 +16,9 @@ python/*
 react/*
 !react/.gitkeep
 
+work/*
+!work/.gitkeep
+
 workspace/desktop.ini
 
 .python-version
