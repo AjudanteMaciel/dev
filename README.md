@@ -1,5 +1,4 @@
 TODO: Automatic install sript
-TODO: Script to change icons automatically
 
 FiraCode Nerd Font Mono
 Fantasque Sans Mono
@@ -10,6 +9,7 @@ oh my posh --> winget install JanDeDobbeleer.OhMyPosh -s winget
 neovim
 git
 github desktop
+docker
 
 vscode
 

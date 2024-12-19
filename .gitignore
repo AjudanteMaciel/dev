@@ -1,25 +1,13 @@
 android/*
-!android/.gitkeep
-
 java/*
 java/JVMS/*
-!java/.gitkeep
-!java/JVMS
-!java/JVMS/.gitkeep
-
 node/*
-!node/.gitkeep
-
 python/*
-!python/.gitkeep
-
 react/*
-!react/.gitkeep
-
 work/*
-!work/.gitkeep
 
-workspace/desktop.ini
+!.gitkeep
+!desktop.ini
 
 .python-version
 .vscode
