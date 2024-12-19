@@ -5,11 +5,11 @@ Fantasque Sans Mono
 
 windows terminal
 powershell
-oh my posh --> winget install JanDeDobbeleer.OhMyPosh -s winget
-neovim
+    oh my posh --> winget install JanDeDobbeleer.OhMyPosh -s winget
 git/github desktop
 docker/desktop
 wsl2/ubuntu
+    zsh --> https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df
 
 vscode
 
