@@ -7,9 +7,9 @@ windows terminal
 powershell
 oh my posh --> winget install JanDeDobbeleer.OhMyPosh -s winget
 neovim
-git
-github desktop
-docker
+git/github desktop
+docker/desktop
+wsl2/ubuntu
 
 vscode
 
@@ -32,3 +32,6 @@ nodejs
     NVM for Windows:
     installer --> https://github.com/coreybutler/nvm-windows
 expo
+go
+    gvm:
+        wls2-ubuntu: https://github.com/moovweb/gvm
