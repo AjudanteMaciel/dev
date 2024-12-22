@@ -33,5 +33,4 @@ nodejs
     installer --> https://github.com/coreybutler/nvm-windows
 expo
 go
-    gvm:
-        wls2-ubuntu: https://github.com/moovweb/gvm
+    gvm: https://github.com/andrewkroh/gvm
