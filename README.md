@@ -32,5 +32,3 @@ nodejs
     NVM for Windows:
     installer --> https://github.com/coreybutler/nvm-windows
 expo
-go
-    gvm: https://github.com/andrewkroh/gvm
