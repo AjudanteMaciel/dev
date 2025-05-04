@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config "C:\Users\mdfaria\Documents\dev\workspace\windos_terminal\oh-my-posh themes\kushal.omp.json" | Invoke-Expression

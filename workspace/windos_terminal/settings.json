@@ -9,13 +9,15 @@
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
+            "id": "User.copy.644BA8F2"
         },
         {
             "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+v"
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
         },
         {
             "command": 
@@ -24,13 +26,7 @@
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
-        },
-        {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
+            "id": "User.splitPane.A6751878"
         }
     ],
     "centerOnLaunch": true,
@@ -41,6 +37,25 @@
     "initialCols": 168,
     "initialPosition": "1920,1080",
     "initialRows": 47,
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
     "launchMode": "focus",
     "newTabMenu": 
     [
@@ -78,7 +93,7 @@
                 "experimental.retroTerminalEffect": true,
                 "font": 
                 {
-                    "face": "Fira Code"
+                    "face": "FiraCode Nerd Font Mono"
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
@@ -107,7 +122,7 @@
                 "name": "PowerShell",
                 "opacity": 75,
                 "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "D:\\dev",
+                "startingDirectory": "C:\\Users\\mdfaria\\Documents\\dev",
                 "suppressApplicationTitle": true
             },
             {
@@ -119,6 +134,5 @@
         ]
     },
     "schemes": [],
-    "startOnUserLogin": true,
     "themes": []
 }
