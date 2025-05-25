@@ -113,15 +113,17 @@ if command -v oh-my-posh &> /dev/null; then
   eval "$(oh-my-posh init bash --config '/mnt/c/Users/mdfaria/Documents/dev/workspace/windos_terminal/oh-my-posh themes/kushal.omp.json')"
 fi
 
-# Binários para wsl
+# binários para wsl
 export PATH="$PATH:/mnt/c/Users/mdfaria/Documents/dev/workspace/wls"
 
 # asdf
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
-
 # anifetch bad_apple (não me pergunte pq)
 alias anifetch='python3 ~/anifetch/anifetch.py -f ~/anifetch/bad_apple.mp4 -r 10 -pr 18 -W 78 -H 29 -ff -c "--symbols=braille --colors=none --work=7 --preprocess=on --threshold=0.05"'
+
+# ble
+source ~/.local/share/blesh/ble.sh
 
 # outros aliases
 alias cls='clear'
