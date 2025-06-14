@@ -4,16 +4,22 @@ install fonts
 	FiraCode Nerd Font Mono
 
 windows terminal
-powershell 8
+powershell 7
+	overwrite config.ps1 on C:\Users\mdfaria\config\winfetch\
+	overwrite winfetch.ps1 on C:\Users\mdfaria\Documents\PowerShell\Scripts
+
 oh my posh
+winfetch
+	overwrite settings.json on C:\Users\mdfaria\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+	overwrite $PROFILE on powershell 7 (Microsoft.PowerShell_profile in C:\Users\mdfaria\Documents\PowerShell)
+
 neovim
 git
 github desktop
 
 vscode
 
-overwrite settings.json on C:\Users\mdfaria\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
-overwrite $PROFILE on powershell 7 (Microsoft.PowerShell_profile in C:\Users\mdfaria\Documents\PowerShell)
+
 
 ----------------------------------------------------------------| JAVA
 install java
