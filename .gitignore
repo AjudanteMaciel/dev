@@ -6,6 +6,7 @@ node/*
 python/*
 react/*
 work/*
+gamedev/*
 
 !.gitkeep
 !desktop.ini
