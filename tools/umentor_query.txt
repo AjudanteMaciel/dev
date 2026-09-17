@@ -1,0 +1,99 @@
+(async () => {
+    const lista = document.querySelector('#transcript-list');
+
+    if (!lista) {
+        console.error('❌ Não encontrei #transcript-list. Abra a transcrição primeiro.');
+        return;
+    }
+
+    const container =
+        lista.closest('[class*="listContainer"]') ||
+        lista.parentElement;
+
+    const falas = new Map();
+
+    function capturar() {
+        document
+            .querySelectorAll('#transcript-list [id^="transcript-cue-"]')
+            .forEach(li => {
+                const id = Number(li.id.replace('transcript-cue-', ''));
+
+                const texto = li
+                    .querySelector('[class*="cueText"]')
+                    ?.innerText
+                    .trim();
+
+                const tempo = li
+                    .querySelector('[class*="timestamp"]')
+                    ?.innerText
+                    .trim();
+
+                if (texto) {
+                    falas.set(id, {
+                        id,
+                        tempo: tempo || '',
+                        texto
+                    });
+                }
+            });
+    }
+
+    console.log('🚀 Extraindo transcrição...');
+
+    // Começa do topo
+    container.scrollTop = 0;
+    await new Promise(r => setTimeout(r, 500));
+
+    let posicaoAnterior = -1;
+    let tentativasSemMover = 0;
+
+    while (tentativasSemMover < 5) {
+        capturar();
+
+        const antes = container.scrollTop;
+
+        // Avança aproximadamente uma tela
+        container.scrollTop += Math.max(
+            container.clientHeight * 0.8,
+            300
+        );
+
+        await new Promise(r => setTimeout(r, 250));
+
+        const depois = container.scrollTop;
+
+        console.log(
+            `📖 ${falas.size} trechos encontrados | scroll: ${Math.round(depois)}`
+        );
+
+        if (depois === antes || depois === posicaoAnterior) {
+            tentativasSemMover++;
+        } else {
+            tentativasSemMover = 0;
+        }
+
+        posicaoAnterior = depois;
+    }
+
+    // Captura o que estiver carregado no final
+    capturar();
+
+    const resultado = [...falas.values()]
+        .sort((a, b) => a.id - b.id)
+        .map(x => `${x.tempo} - ${x.texto}`)
+        .join('\n');
+
+    console.log(`✅ Finalizado: ${falas.size} trechos.`);
+    console.log(resultado);
+
+    try {
+        await navigator.clipboard.writeText(resultado);
+        console.log('📋 Transcrição copiada para a área de transferência!');
+    } catch {
+        // fallback do DevTools
+        copy(resultado);
+        console.log('📋 Transcrição copiada!');
+    }
+
+    // Volta para o começo
+    container.scrollTop = 0;

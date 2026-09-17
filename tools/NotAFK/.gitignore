@@ -1,0 +1,12 @@
+# Artefatos de compilacao e publicacao
+[Bb]in/
+[Oo]bj/
+/publish/
+
+# Configuracoes locais de IDE
+.vs/
+*.user
+*.suo
+
+# Atalhos locais do Windows
+*.lnk
