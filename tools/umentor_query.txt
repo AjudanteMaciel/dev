@@ -97,3 +97,4 @@
 
     // Volta para o começo
     container.scrollTop = 0;
+})();
